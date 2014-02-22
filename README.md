@@ -24,7 +24,3 @@ kss-node <sourcedir> --template path/to/template
 ##More document
 
 [kss-node](https://github.com/hughsk/kss-node).
-
-
-##Note
-I'm worried about whether there are any licensing issues that I publish this template.
