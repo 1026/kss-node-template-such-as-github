@@ -33,7 +33,7 @@
       </div>
       {{else}}
       {{#eachSection rootNumber}}
-      {{#ifAny markup modifiers}}
+      {{#if markup}}
       <div class="styleguide-example">
         <header class="styleguide-example-header styleguide-reset">
           <h3>{{reference}} <em>{{header}}</em></h3>
@@ -76,7 +76,7 @@
         {{html description}}
       </div>
       {{/if}}
-      {{/ifAny}}
+      {{/if}}
       {{/eachSection}}
       {{/if}}
     </div>
