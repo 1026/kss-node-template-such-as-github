@@ -29,7 +29,7 @@
 
       {{#if overview}}
       <div class="styleguide-markdown-body styleguide-reset">
-        {{html overview}}
+        {{{overview}}}
       </div>
       {{else}}
       {{#eachSection rootNumber}}
@@ -40,11 +40,11 @@
         </header>
         {{#if description}}
         <div class="styleguide-description styleguide-markdown-body styleguide-reset">
-          {{html description}}
+          {{{description}}}
 
           <ul class="styleguide-modifier">
               {{#eachModifier}}
-              <li><strong>{{name}}</strong> - {{html description}}</li>
+              <li><strong>{{name}}</strong> - {{{description}}}</li>
               {{/eachModifier}}
           </ul>
         </div>
@@ -73,7 +73,7 @@
       </header>
       {{#if description}}
       <div class="markdown-body styleguide-reset">
-        {{html description}}
+        {{{description}}}
       </div>
       {{/if}}
       {{/if}}
